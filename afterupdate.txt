@@ -1,0 +1,4 @@
+https://some-site.ru/backadmin/_mcnick/recategory.php?token=123w123I&id_shop=1
+https://some-site.ru/modules/ysitemap/ysitemap-cron.php?token=2346567f89&id_shop=1
+https://some-site.ru/modules/gsitemap/gsitemap-cron.php?token=111c222a33&id_shop=1
+
