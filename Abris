@@ -1,0 +1,7 @@
+##  #!/bin/bash
+rm -f Price_all.xls Price_all.csv
+wget -t 5 http://textbook.ru/upload/Price_all.xls
+ssconvert -O 'separator=; format=raw charset=windows-1251' Price_all.xls Price_all.txt
+mv Price_all.txt Price_all.csv
+php -f abris.php
+wget -O /dev/null -i afterupdate.txt
